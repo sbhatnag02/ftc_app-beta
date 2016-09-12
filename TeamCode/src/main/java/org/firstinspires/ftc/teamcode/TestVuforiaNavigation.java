@@ -339,6 +339,7 @@ public class TestVuforiaNavigation extends LinearOpMode {
     /**
      * A simple utility that extracts positioning information from a transformation matrix
      * and formats it in a form palatable to a human being.
+     * Test comment line
      */
     String format(OpenGLMatrix transformationMatrix) {
         return transformationMatrix.formatAsTransform();
