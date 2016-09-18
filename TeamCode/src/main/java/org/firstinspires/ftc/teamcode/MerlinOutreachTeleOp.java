@@ -13,12 +13,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 public class MerlinOutreachTeleOp extends OpMode {
     DcMotor leftFront, leftBack, rightFront, rightBack;
 
-    public void setPowerAll(double leftPower, double rightPower){
-        leftFront.setPower(leftPower);
-        leftBack.setPower(leftPower);
-        rightFront.setPower(rightPower);
-        rightBack.setPower(rightPower);
-    }
+
 
     @Override
     public void init() {
